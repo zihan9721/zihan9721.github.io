@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">CoDesign Lab icon</title>
-  <desc id="desc">A CoDesign Lab mark showing computational design coupling materials, structures, manufacturing, and systems.</desc>
+  <title id="title">CODE squared Lab icon</title>
+  <desc id="desc">A CODE squared Lab mark showing computational and data-enabled design for coupled engineering systems.</desc>
   <defs>
     <linearGradient id="hubGradient" x1="128" y1="100" x2="384" y2="412" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#123f63"/>
@@ -38,5 +38,5 @@
     <path d="M139 332h34M146 318h20M146 346h20" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
     <path d="M338 319l36 26M374 319l-36 26" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
   </g>
-  <text x="256" y="455" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800" letter-spacing="1.5" fill="#123f63">CoDesign</text>
+  <text x="256" y="455" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800" letter-spacing="1.5" fill="#123f63">CODE2</text>
 </svg>
