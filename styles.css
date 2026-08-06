@@ -68,8 +68,8 @@ a {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  padding: 18px clamp(18px, 5vw, 72px);
+  gap: 18px;
+  padding: 12px clamp(18px, 5vw, 72px);
   color: var(--white);
   transition: background 180ms ease, box-shadow 180ms ease, color 180ms ease;
 }
@@ -84,16 +84,16 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-size: 1.05rem;
+  gap: 8px;
+  font-size: 0.98rem;
   font-weight: 800;
   text-decoration: none;
 }
 
 .brand-mark {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 34px;
+  height: 34px;
   border: 1px solid var(--line);
   border-radius: 6px;
   object-fit: cover;
@@ -110,17 +110,17 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 8px 12px;
-  font-size: 1.05rem;
+  gap: 6px 10px;
+  font-size: 0.96rem;
   font-weight: 650;
 }
 
 .nav a {
   position: relative;
   display: inline-flex;
-  min-height: 44px;
+  min-height: 36px;
   align-items: center;
-  padding: 7px 5px;
+  padding: 5px 4px;
   text-decoration: none;
 }
 
@@ -158,11 +158,11 @@ a {
 
 .hero {
   position: relative;
-  min-height: 92vh;
+  min-height: 78vh;
   display: grid;
   align-items: end;
   overflow: hidden;
-  padding: 120px clamp(18px, 5vw, 72px) 72px;
+  padding: 92px clamp(18px, 5vw, 72px) 48px;
 }
 
 .hero-image,
@@ -185,9 +185,9 @@ a {
 
 .hero-interactive-wrap {
   z-index: 1;
-  inset: auto clamp(18px, 5vw, 72px) 11% auto;
-  width: min(28vw, 390px);
-  height: min(28vw, 390px);
+  inset: auto clamp(18px, 5vw, 72px) 9% auto;
+  width: min(24vw, 330px);
+  height: min(24vw, 330px);
   pointer-events: none;
 }
 
@@ -213,11 +213,11 @@ a {
   z-index: 2;
   border: 1px solid rgba(255, 255, 255, 0.42);
   border-radius: 999px;
-  padding: 5px 10px;
+  padding: 4px 9px;
   color: rgba(255, 255, 255, 0.86);
   background: rgba(31, 35, 40, 0.36);
   backdrop-filter: blur(8px);
-  font-size: 0.76rem;
+  font-size: 0.7rem;
   font-weight: 800;
   letter-spacing: 0.02em;
   pointer-events: none;
@@ -226,7 +226,7 @@ a {
 .hero-content {
   position: relative;
   z-index: 2;
-  max-width: 760px;
+  max-width: 680px;
   color: var(--white);
   animation: heroRise 720ms ease both;
 }
@@ -298,9 +298,9 @@ p {
 }
 
 h1 {
-  margin-bottom: 16px;
-  font-size: clamp(3.6rem, 8vw, 7.6rem);
-  line-height: 0.92;
+  margin-bottom: 12px;
+  font-size: clamp(3rem, 6.4vw, 6rem);
+  line-height: 0.94;
 }
 
 h2 {
@@ -316,25 +316,25 @@ h3 {
 }
 
 .hero-copy {
-  max-width: 650px;
-  margin-bottom: 28px;
-  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  max-width: 590px;
+  margin-bottom: 20px;
+  font-size: clamp(0.98rem, 1.6vw, 1.18rem);
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 10px;
 }
 
 .button {
   display: inline-flex;
-  min-height: 46px;
+  min-height: 40px;
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.78);
   border-radius: 7px;
-  padding: 10px 18px;
+  padding: 8px 15px;
   font-weight: 760;
   text-decoration: none;
   transition: background 180ms ease, color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
@@ -1152,13 +1152,14 @@ li + li {
   }
 
   .nav {
-    gap: 10px 14px;
-    font-size: 0.86rem;
+    gap: 8px 12px;
+    font-size: 0.8rem;
   }
 
   .hero {
-    min-height: 760px;
-    padding-top: 138px;
+    min-height: 640px;
+    padding-top: 112px;
+    padding-bottom: 44px;
   }
 
   .hero-scrim {
@@ -1167,9 +1168,9 @@ li + li {
 
   .hero-interactive-wrap {
     right: 4vw;
-    bottom: 7%;
-    width: min(42vw, 285px);
-    height: min(42vw, 285px);
+    bottom: 6%;
+    width: min(36vw, 240px);
+    height: min(36vw, 240px);
   }
 
   .intro-grid,
@@ -1227,14 +1228,14 @@ li + li {
   }
 
   .hero {
-    min-height: 720px;
+    min-height: 600px;
   }
 
   .hero-interactive-wrap {
     right: -5vw;
     bottom: 5%;
-    width: 48vw;
-    height: 48vw;
+    width: 40vw;
+    height: 40vw;
   }
 
   .hero-rotate-hint {
@@ -1242,7 +1243,7 @@ li + li {
   }
 
   h1 {
-    font-size: 3.35rem;
+    font-size: 2.75rem;
   }
 
   .section {
