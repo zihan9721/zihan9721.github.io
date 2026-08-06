@@ -914,6 +914,27 @@ dd {
   font-weight: 850;
 }
 
+.pi-awards {
+  margin-top: 22px;
+}
+
+.pi-awards h3 {
+  margin-bottom: 8px;
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.pi-awards ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.pi-awards li + li {
+  margin-top: 7px;
+}
+
 .pi-introduction h2 {
   margin-bottom: 8px;
 }
