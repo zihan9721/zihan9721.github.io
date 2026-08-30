@@ -998,6 +998,36 @@ dd {
   margin: 0;
 }
 
+.news-feature {
+  align-items: start;
+}
+
+.news-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.news-gallery figure {
+  margin: 0;
+}
+
+.news-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.news-gallery figcaption {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
 .section-link {
   display: inline-block;
   margin-top: 24px;
@@ -1240,6 +1270,10 @@ li + li {
   .news-list article {
     grid-template-columns: 1fr;
     gap: 6px;
+  }
+
+  .news-gallery {
+    grid-template-columns: 1fr;
   }
 
   .research-direction-card {
